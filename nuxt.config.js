@@ -28,8 +28,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'canonical', href : 'https://www.oguzhankalelioglu.com'}
-    ]
+      { rel: 'canonical', href : 'https://www.oguzhankalelioglu.com'},
+      { rel: 'stylesheet' , href: 'https://bootswatch.com/5/united/bootstrap.css'}
+    ],
+    script: [
+      {src: 'https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js'},
+      {src: 'https://bootswatch.com/_vendor/jquery/dist/jquery.min.js'},
+      {src: 'https://bootswatch.com/_vendor/prismjs/prism.js'},
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
